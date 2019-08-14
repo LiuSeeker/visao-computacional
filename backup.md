@@ -105,11 +105,12 @@ Para a transformação para deuteranopia, os resultados foram ligeiramente difer
 
 As diferenças analisadas podem ter ocorrido pelo fato dos autores terem considerado uma paleta de 216 cores, de 8-bits. Atualmente, é comum os computadores terem uma paleta de cores de 18-bits ou mais.
 
-Outro possível motivo para as diferenças ocorridas é a utilização da recomendação ITU-R BT709, que é bem ultrapassado em relação à recomendação atual (ITU-R BT2100)
+Outro possível motivo para as diferenças ocorridas é a utilização da recomendação ITU-R BT709, padrão de utilização de cores baseadas no diagrama cromático, que é bem ultrapassado em relação à recomendação atual (ITU-R BT2100)
 
 ## Conclusão
 
-
+A simulação de protanopia se mostrou satisfatória apesar de não ser totalmente perfeita. Já a reprodução de deuteranopia ficou significamente distinto do esperado, mostrando que a modelo de simulação de deuteranopia proposto pelo artigo não é um modelo adequado.
+Para estudos sobre o artigo apresentado, as considerações de paletas de cores de computadores mais recentes e o uso de recomendações ITU-R mais atualizadas são relevantes para possivelmente atingir resultados de simulação de protanopia e deuteranopia mais próximos da realidade.
 
 
 ###### http://gshow.globo.com/Bastidores/noticia/2016/05/drfernandoresponde-tabela-mostra-os-tipos-de-daltonismo.html
