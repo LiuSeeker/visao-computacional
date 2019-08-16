@@ -6,8 +6,6 @@ A carência de cones funcinais faz com que os cones L não gere estímulos sufic
 ###### esse
 No caso da protanopia, os cones L, responsáveis pela percepção de ondas de comprimento longos, associados à cor vermelha, não geram estímulos suficientes para intepretar a onda recebida; de mesmo modo, no caso da deutoranopia, os cones M, responsáveis pela percepção de ondas de comprimento médios, associados à cor verde.
 
-###### https://aminoapps.com/c/furry-pt/page/blog/daltonismo-discromatopsia/vzxb_3rCnuLJpDMKr07law8z02bJZVpEE
-
 ## Objetivo
 O objetivo deste projeto é simular a protanopia e deuteranopia. A partir do artigo "Digital Video Colourmaps for Checking the Legibility of Displays by Dichromats", de Françoise Viénot, Hans Brettel e John D. Mollon, publicado em Janeiro de 1999, os autores discutem a relação entre o modelo de cor RGB, comumente associado à imagens reproduzidas em dispositivos eletrônicos, e o modelo LMS, baseado nos 3 comprimentos de onda que o olho humano é capaz de interpretar como cores, graças às células cones. Com a relação entre os dois modelos fundamentada, os autores associam a questão da protanopia e da deuteranopia com a relação entre o modelo LMS e RGB, assim obtendo um caminho para a simulação desejada neste projeto.
 
@@ -107,6 +105,26 @@ Para a transformação para deuteranopia, os resultados foram ligeiramente difer
 
 As diferenças analisadas podem ter ocorrido pelo fato dos autores terem considerado uma paleta de 216 cores, de 8-bits. Atualmente, é comum os computadores terem uma paleta de cores de 18-bits ou mais.
 
-Outro possível motivo para as diferenças ocorridas é a utilização da recomendação ITU-R BT709, que é bem ultrapassado em relação à recomendação atual (ITU-R BT2100)
+Outro possível motivo para as diferenças ocorridas é a utilização da recomendação ITU-R BT709, padrão de utilização de cores baseadas no diagrama cromático, que é bem ultrapassado em relação à recomendação atual (ITU-R BT2100)
 
 ## Conclusão
+
+A simulação de protanopia se mostrou satisfatória apesar de não ser totalmente perfeita. Já a reprodução de deuteranopia ficou significamente distinto do esperado, mostrando que a modelo de simulação de deuteranopia proposto pelo artigo não é um modelo adequado.
+Para estudos sobre o artigo apresentado, as considerações de paletas de cores de computadores mais recentes e o uso de recomendações ITU-R mais atualizadas são relevantes para possivelmente atingir resultados de simulação de protanopia e deuteranopia mais próximos da realidade.
+
+
+###### http://gshow.globo.com/Bastidores/noticia/2016/05/drfernandoresponde-tabela-mostra-os-tipos-de-daltonismo.html
+imagem.jpg
+
+###### https://aminoapps.com/c/furry-pt/page/blog/daltonismo-discromatopsia/vzxb_3rCnuLJpDMKr07law8z02bJZVpEE
+imagem2.jpg
+
+###### https://clubjimmy.com/voir-le-monde-comme-les-daltoniens/
+teste 2.jpg
+
+###### https://mycourses.aalto.fi/pluginfile.php/630975/mod_resource/content/1/Luento%208%202018.pdf
+teste.jpg
+
+###### https://omaharentalads.com/explore/marks-clipart-high-grade/
+arco_iris.png
+
