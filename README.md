@@ -1,3 +1,6 @@
-# visao-computacional-proj1
+# visao-computacional
 
-run main.ipynb
+## Projeto 1 - Simulação de protanopia e deuteranopia
+  run main.ipynb
+
+## Projeto 4 - Pedra, Papel, Tesoura
